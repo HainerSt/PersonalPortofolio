@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .container {
+  height: 500px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -8,6 +9,7 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 1056px) {
@@ -17,6 +19,9 @@
 }
 
 .image {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 16/9;
   margin-bottom: 26px;
   border-radius: 13px;
 }

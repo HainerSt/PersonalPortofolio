@@ -59,20 +59,24 @@
 }
 
 .heroImg {
-  width: 25vw;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  cursor: none;
+  width: 20vw;
   z-index: 1;
   border-radius: 50%;
   animation-name: float;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  margin-top: 40px;
   margin-right: 150px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.heroImg:hover{
+.heroImg:hover {
   src: url("../../../assets/hero/hero-image-openeyes.png");
+  background-color: #94c5f351;
 }
 
 .topBlur {

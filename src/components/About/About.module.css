@@ -19,14 +19,25 @@
   text-transform: uppercase;
 }
 
+.certifications-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+
+.certificate-icon {
+  width: 3vw;
+  width: 3vw;
+  margin: 0 auto;
+}
+
 .content {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.aboutImage {
-  width: 100px;
 }
 
 .aboutItems {
@@ -39,17 +50,10 @@
 .aboutItem {
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 20px;
   list-style: none;
   padding: 25px;
-  background-image: linear-gradient(90deg, rgba(160, 210, 230, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
-}
-
-.aboutItem:hover {
-  background-size: 100% 100%;
 }
 
 .aboutItem h3 {
@@ -59,6 +63,87 @@
 
 .aboutItem p {
   font-size: 22px;
+}
+
+.tech {
+  font-weight: bold;
+  border-bottom: 1px white dotted;
+}
+
+.certificationscontainer {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+}
+
+.certificationcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px 30px;
+  background-color: var(--secondary-background);
+  width: 50%;
+}
+
+.certificationcard p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.freecodelink {
+  color: #fff;
+  background-color: var(--color-primary-btn);
+  text-decoration: none;
+  width: 80%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px 30px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.freecodelink:hover {
+  box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--color-primary-hover);
+}
+
+.freecodetext {
+  font-size: 90%;
+  color: var(--color-bg);
+  text-align: center;
+  font-weight: 100;
+}
+
+.aboutTypingBlink {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: typing 3s steps(30), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
 }
 
 @media screen and (max-width: 800px) {

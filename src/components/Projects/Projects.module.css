@@ -1,11 +1,13 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 75px;
-  color: var(--color-text);
+  position: relative;
+  border-radius: 15px;
+  padding: 70px;
+  margin-top: 120px;
   margin-left: 10%;
   margin-right: 10%;
-  padding: 70px;
+  z-index: 1;
 }
 
 .title {
@@ -26,5 +28,3 @@
   gap: 15px;
   width: 100%;
 }
-
-

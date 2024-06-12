@@ -5,7 +5,7 @@
     "description": "This is an educational single-page application.",
     "demo": "https://edutech-mu-liart.vercel.app/",
     "source": "https://github.com/HainerSt/EduTech.git",
-    "skills": ["HTML", "CSS", "REACT", "Firebase"]
+    "skills": ["HTML", "CSS", "Javascript", "REACT", "Firebase"]
   },
   {
     "title": "Flappy Bird Clone",
@@ -13,6 +13,14 @@
     "description": "This is a Real-time Crypto monitoring app.",
     "demo": "https://edutech-mu-liart.vercel.app/",
     "source": "https://github.com/HainerSt/EduTech.git",
-    "skills": ["HTML", "CSS", "REACT", "Firebase"]
+    "skills": ["HTML", "CSS", "Javascript", "REACT"]
+  },
+  {
+    "title": "Crypto Monitoring App",
+    "imageSrc": "projects/chainer-background.jpg",
+    "description": "Crypto Monitoring App with CoinGecko API",
+    "demo": "https://chainer-crypto-app.vercel.app/",
+    "source": "https://github.com/HainerSt/EduTech.git",
+    "skills": ["HTML", "Tailwind CSS", "Javascript", "REACT"]
   }
 ]
