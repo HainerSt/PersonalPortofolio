@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState }  from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 
