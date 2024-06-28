@@ -34,14 +34,7 @@ const Hero = () => {
           Contact me
         </a>
       </div>
-      {/* <img className={styles.heroImg} src={getImageUrl("hero/hero-image.png")} alt="Hero Avatar image" /> */}
-      <img
-        className={styles.heroImg}
-        src={isHovered ? normalImage : hoverImage}
-        alt="Hero Avatar image"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      />
+      <img className={styles.heroImg} src={getImageUrl("hero/hero-image.png")} alt="Hero Avatar image" />
 
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
