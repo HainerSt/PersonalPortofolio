@@ -1,22 +1,7 @@
-import React, { useState } from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 
 const Hero = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  // URLs of the images
-  const normalImage = getImageUrl("hero/hero-image.png");
-  const hoverImage = getImageUrl(`hero/hero-image-openeyes.png`);
-
-  // Handlers for mouse events
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
 
   return (
     <section className={styles.container}>
@@ -34,7 +19,7 @@ const Hero = () => {
           Contact me
         </a>
       </div>
-      <img className={styles.heroImg} src={getImageUrl("hero/hero-image.png")} alt="Hero Avatar image" />
+      <img className={styles.heroImg} src={getImageUrl("hero/hero-image-openeyes.png")} alt="Hero Avatar image" />
 
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />

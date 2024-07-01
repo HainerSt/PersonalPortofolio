@@ -27,7 +27,7 @@
   font-family: var(--font-roboto);
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0), 120%);
   /* -webkit-text-fill-color: transparent; */
-  -webkit-background-clip: text;
+  background-clip: text;
   color: #000;
 }
 
@@ -72,10 +72,11 @@
   margin-right: 150px;
   margin-left: auto;
   margin-right: auto;
+  src: url("../../../assets/hero/hero-image-openeyes.png");
 }
 
 .heroImg:hover {
-  src: url("../../../assets/hero/hero-image-openeyes.png");
+  src: url("../../../assets/hero/hero-image.png");
   background-color: #94c5f351;
 }
 
