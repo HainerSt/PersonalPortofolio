@@ -34,7 +34,7 @@ const About = () => {
                     target="_blank"
                     className={styles.freecodelink}
                   >
-                    Open certificate
+                    Open Certificate
                   </a>
                 </div>
                 <div className={styles.certificationcard}>
@@ -45,7 +45,7 @@ const About = () => {
                     target="_blank"
                     className={styles.freecodelink}
                   >
-                    Open certificate
+                    Open Certificate
                   </a>
                 </div>
               </div>
