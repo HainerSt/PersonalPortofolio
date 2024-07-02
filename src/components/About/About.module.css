@@ -170,5 +170,22 @@
     padding-left: 0;
     padding-right: 0;
   }
+}
 
+@media (max-width: 480px) {
+  .aboutItem p {
+    width: 80vw;
+  }
+
+  .certificationscontainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .certificationcard {
+    width: 80vw;
+  }
+  .certificationcard p {
+    width: 70vw;
+  }
 }
