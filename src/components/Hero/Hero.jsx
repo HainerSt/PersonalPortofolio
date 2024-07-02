@@ -1,8 +1,20 @@
-import { getImageUrl } from "../../utils";
+import { useState } from "react";
 import styles from "./Hero.module.css";
 
 const Hero = () => {
+  const HoverImg = () => {
+    const [src, setSrc] = useState("./assets/hero/hero-image-openeyes.png");
 
+    const mouseIn = () => {
+      setSrc("./assets/hero/hero-image.png");
+    };
+
+    const mouseOut = () => {
+      setSrc("./assets/hero/hero-image-openeyes.png");
+    };
+
+    return <img src={src} onMouseOver={mouseIn} onMouseOut={mouseOut} alt="hoverable" className={styles.heroImg} />;
+  };
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -19,7 +31,8 @@ const Hero = () => {
           Contact me
         </a>
       </div>
-      <img className={styles.heroImg} src={getImageUrl("hero/hero-image-openeyes.png")} alt="Hero Avatar image" />
+
+      <HoverImg />
 
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
@@ -28,3 +41,21 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// import { useState } from "react";
+
+// const HoverImg = () => {
+//   const [src, setSrc] = useState("");
+
+//   const mouseIn = () => {
+//     setSrc("hero/hero-image-openeyes.png");
+//   };
+
+//   const mouseOut = () => {
+//     setSrc("hero/hero-image.png");
+//   };
+
+//   return <img src={src} onMouseOver={mouseIn} onMouseOut={mouseOut} alt="profile image" />;
+// };
+
+// export default HoverImg;

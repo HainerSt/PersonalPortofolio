@@ -11,11 +11,11 @@ const About = () => {
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemDescription}>
               <p>
-                Hi, I'm Stefan, a 29-years-old Front-End software developer with a passion for creating user-friendly
-                web experiences. I specialize in <span className={styles.tech}>HTML</span>,{" "}
+              &nbsp; &nbsp; Hi, I'm Stefan, a 29-years-old Front-End software developer with a passion for creating user-friendly
+                web experiences. <br/> <br/>&nbsp;&nbsp; I specialize in <span className={styles.tech}>HTML</span>,{" "}
                 <span className={styles.tech}>CSS</span>, <span className={styles.tech}>Javascript</span>, and have some
                 experience with <span className={styles.tech}>React</span>. I also like to use frameworks like Tailwind,
-                Bootstrap to make the design process more efficient and consistent. I'm constantly learning and keeping up with the latest web technologies to deliver high-quality, responsive, and interactive web applications<span className={styles.dot}>...</span><span className={styles.aboutTypingBlink}> </span>
+                Bootstrap to make the design process more efficient and consistent. <br/><br/> &nbsp;&nbsp; I'm constantly learning and keeping up with the latest web technologies to deliver high-quality, responsive, and interactive web applications<span className={styles.dot}>...</span><span className={styles.aboutTypingBlink}> </span>
               </p>
             </div>
           </li>
