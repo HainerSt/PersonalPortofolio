@@ -8,11 +8,10 @@
   margin-right: 10%;
   padding: 70px;
   margin-top: 120px;
-  
 }
 
 .title {
-  color: var(--color-text);
+  color: var(--color-dark);
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1.75px;
@@ -55,12 +54,18 @@
 }
 
 .skillImageContainer img {
-  width: 75px;
+  width: 60px;
+  transition: 0.4s ease-in-out;
+}
+
+.skillImageContainer img:hover {
+  transform: scale(1.05);
 }
 
 .skill p {
   font-size: 25px;
   font-family: var(--font-roboto);
+  color: var(--color-dark);
   font-weight: 500;
 }
 
@@ -77,9 +82,7 @@
     justify-content: center;
     gap: 25px;
   }
-
 }
-
 
 @media (max-width: 480px) {
   .container {

@@ -1,5 +1,8 @@
 @import "../../vars.css";
 
+* {
+  user-select: none;
+}
 .container {
   position: relative;
   background: var(--secondary-background);
@@ -17,6 +20,7 @@
   font-weight: 700;
   letter-spacing: 1.8px;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 
 .certifications-title {
@@ -57,12 +61,12 @@
 }
 
 .aboutItem h3 {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 .aboutItem p {
-  font-size: 22px;
+  font-size: 1.6rem;
 }
 
 .tech {
@@ -85,6 +89,7 @@
   margin: 20px;
   padding: 20px 30px;
   background-color: var(--secondary-background);
+  box-shadow: 0 16px 14px 0 rgba(4, 21, 45, 0.4);
   width: 50%;
 }
 
@@ -106,11 +111,13 @@
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.6px;
-  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+
+  transition: 0.4s ease-in-out;
 }
 
 .freecodelink:hover {
-  box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 16px 14px 0 #04152d20;
   background-color: var(--color-primary-hover);
 }
 

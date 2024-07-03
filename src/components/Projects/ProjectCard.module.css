@@ -13,11 +13,6 @@
 }
 
 
-@media (max-width: 1056px) {
-  .container {
-    margin-top: 50px;
-  }
-}
 
 .image {
   object-fit: cover;
@@ -75,11 +70,19 @@
   color: #ffffff;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   padding: 7px 22px;
+
+  transition: 0.4s ease-in-out;
 }
 
 .link:hover {
   transform: scale(1.05);
   box-shadow: 0 16px 14px 0 #04152d20;
+}
+
+@media (max-width: 1056px) {
+  .container {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -95,7 +98,5 @@
   }
 }
 
-
 @media (max-width: 600px) {
-  
 }

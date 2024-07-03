@@ -3,7 +3,7 @@
 .container {
   color: var(--color-text);
   margin-top: 120px;
-  background-color: var(--color-secondary);
+  background: var(--secondary-background);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -24,6 +24,7 @@
   font-weight: 400;
   letter-spacing: 2px;
   color: var(--color-light);
+  opacity: 0.75;
 }
 
 .links {
@@ -40,15 +41,32 @@
   gap: 24px;
 }
 
+.link img {
+  width: 40px;
+}
+
 .link a {
   text-decoration: none;
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
   color: var(--color-light);
+  transition: 0.4s ease-in-out;
 }
 .link a:hover {
-  color: #ffffffaa;
+  color: var(--color-dark);
+}
+
+@media (max-width: 991px) {
+  .text p {
+    font-size: 32px;
+  }
+  .link a {
+    font-size: 26px;
+  }
+  .container{
+    padding: 58px 2%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -74,7 +92,6 @@
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: var(--color-light);
   }
 
   .links {
