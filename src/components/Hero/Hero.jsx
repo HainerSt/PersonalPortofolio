@@ -1,16 +1,18 @@
 import { useState } from "react";
 import styles from "./Hero.module.css";
+import logo from "../../../assets/hero/hero-image-openeyes.png";
+import hoverlogo from "../../../assets/hero/hero-image.png";
 
 const Hero = () => {
   const HoverImg = () => {
-    const [src, setSrc] = useState("./assets/hero/hero-image-openeyes.png");
+    const [src, setSrc] = useState(logo);
 
     const mouseIn = () => {
-      setSrc("./assets/hero/hero-image.png");
+      setSrc(hoverlogo);
     };
 
     const mouseOut = () => {
-      setSrc("./assets/hero/hero-image-openeyes.png");
+      setSrc(logo);
     };
 
     return <img src={src} onMouseOver={mouseIn} onMouseOut={mouseOut} alt="hoverable" className={styles.heroImg} />;
