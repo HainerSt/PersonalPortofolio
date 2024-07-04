@@ -87,8 +87,8 @@
 
 @media (max-width: 480px) {
   .container {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 20px;
   }
   .skillImageContainer {
@@ -98,12 +98,21 @@
     align-items: center;
   }
   .skills {
-    gap: 20px;
+    display: flex;
+    justify-content: space-between;
   }
   .skill {
     display: flex;
     align-items: center;
-    justify-content: center;
+  }
+
+  .skill p {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .skillImageContainer img {
+    width: 40px;
   }
   .title {
     margin-bottom: 30px;
