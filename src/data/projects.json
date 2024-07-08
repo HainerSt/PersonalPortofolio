@@ -20,7 +20,7 @@
     "imageSrc": "projects/flappybirddemobg.jpg",
     "description": "This is a Real-time Crypto monitoring app.",
     "demo": "https://flappybird-cln.vercel.app/",
-    "source": "https://github.com/HainerSt/EduTech.git",
+    "source": "https://github.com/HainerSt/FlappyBirdClone",
     "skills": ["HTML", "CSS", "Javascript", "REACT"]
   },
   {
@@ -28,7 +28,7 @@
     "imageSrc": "projects/chainer-background.jpg",
     "description": "Crypto Monitoring App with CoinGecko API",
     "demo": "https://chainer-crypto-app.vercel.app/",
-    "source": "https://github.com/HainerSt/EduTech.git",
+    "source": "https://github.com/HainerSt/Chainer---Crypto-App",
     "skills": ["HTML", "Tailwind CSS", "Javascript", "REACT"]
   }
 ]
