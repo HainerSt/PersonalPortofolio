@@ -9,7 +9,7 @@ const About = () => {
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemDescription}>
-              <p>
+              <h4 className={styles.paragraphDesc}>
                 &nbsp; &nbsp; Hi, I'm Stefan, a 29-years-old Front-End software developer with a passion for creating
                 user-friendly web experiences.
                 <br />
@@ -20,7 +20,7 @@ const About = () => {
                 <br /> &nbsp;&nbsp; I'm constantly learning and keeping up with the latest web technologies to deliver
                 high-quality, responsive, and interactive web applications<span className={styles.dot}>...</span>
                 <span className={styles.aboutTypingBlink}> </span>
-              </p>
+              </h4>
             </div>
           </li>
           <hr />

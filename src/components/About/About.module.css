@@ -95,6 +95,10 @@
   margin-top: 18px;
   text-align: center;
 }
+.paragraph-desc {
+  font-size: 24px;
+  font-weight: 400;
+}
 
 .certification-title {
   font-size: 20px;
@@ -234,5 +238,19 @@
   }
   .certificationcard p {
     width: 70vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .aboutItem p {
+    width: 50vw;
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .paragraph-desc {
+    text-align: justify;
+    width: 80vw;
+    font-weight: 400;
   }
 }
