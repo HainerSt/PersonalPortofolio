@@ -63,7 +63,7 @@
 }
 
 .aboutItem p {
-  font-size: 1.6rem;
+  font-size: 24px;
 }
 
 .tech {
@@ -91,6 +91,7 @@
 }
 
 .certificationcard p {
+  font-size: 20px;
   margin-top: 18px;
   text-align: center;
 }
@@ -165,6 +166,16 @@
     margin-right: 3%;
     z-index: 1;
   }
+
+  .certificationscontainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
   .content {
     flex-direction: column;
   }
@@ -181,15 +192,33 @@
 }
 
 @media (max-width: 600px) {
-  .about-item-description p {
-    padding: 0 40px;
+  .certificationscontainer {
+    width: 95vw;
   }
+  .certificationcard p {
+    font-size: 18px;
+    margin-top: 18px;
+    text-align: center;
+  }
+
+  hr {
+    width: 90vw;
+    margin: auto;
+    opacity: 0.9;
+    color: white;
+    border-bottom: none;
+  }
+
+  .freecodelink {
+    font-size: 14px;
+  }
+
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 400px) {
   .aboutItem p {
-    width: 80vw;
-    font-size: 1.1rem;
+    width: 90vw;
+    font-size: 18px;
   }
 
   .certificationscontainer {
@@ -205,4 +234,4 @@
   .certificationcard p {
     width: 70vw;
   }
-} */
+}
