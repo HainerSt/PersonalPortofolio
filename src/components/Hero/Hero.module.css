@@ -194,4 +194,23 @@ MEDIA QUERIES
     background-clip: text;
     color: #000;
   }
+
+.title,
+.span {
+  font-size: 40px;
+}
+.heroImg {
+  width: 40vw;
+  margin-top: 20px;
+}
+.content {
+  margin-top: 40px;
+}
+}
+
+@media only screen and (max-width: 340px){
+  .contact-btn {
+    padding: 18px 26px;
+    font-size: 20px;
+  }
 }

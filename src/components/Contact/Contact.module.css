@@ -61,10 +61,15 @@
   .text p {
     font-size: 32px;
   }
+  .text h2 {
+    font-size: 50px;
+    color: var(--color-light);
+  }
+
   .link a {
     font-size: 26px;
   }
-  .container{
+  .container {
     padding: 58px 2%;
   }
 }
@@ -95,7 +100,9 @@
   }
 
   .links {
-    align-items: center;
+    align-items: start;
+    margin-left: 50%;
+    transform: translateX(-50%);
     margin-top: 20px;
     gap: 20px;
   }
