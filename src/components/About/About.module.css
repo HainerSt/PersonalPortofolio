@@ -212,13 +212,14 @@
   .freecodelink {
     font-size: 14px;
   }
-
 }
 
 @media (max-width: 400px) {
   .aboutItem p {
     width: 90vw;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 0 10px;
+    text-align: justify;
   }
 
   .certificationscontainer {
