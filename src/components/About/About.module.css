@@ -23,12 +23,14 @@
   padding-bottom: 20px;
 }
 
-.certifications-title {
+.certif-title {
+  text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   text-align: start;
   text-transform: uppercase;
-  color: black;
+  color: #fff;
   margin-bottom: 20px;
   letter-spacing: 1.8px;
 }
@@ -178,24 +180,13 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .container {
-    padding: 40px;
-    margin-top: 120px;
-    margin-left: 3%;
-    margin-right: 3%;
-    z-index: 1;
-  }
-  .freecodelink {
-    width: 80%;
-    margin: 10px auto;
-    padding: 20px 3px;
-    font-size: 16px;
-    transition: 0.4s ease-in-out;
+@media (max-width: 600px) {
+  .about-item-description p {
+    padding: 0 40px;
   }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .aboutItem p {
     width: 80vw;
     font-size: 1.1rem;
@@ -204,7 +195,6 @@
   .certificationscontainer {
     margin-top: 10px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -215,4 +205,4 @@
   .certificationcard p {
     width: 70vw;
   }
-}
+} */

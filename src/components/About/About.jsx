@@ -1,5 +1,4 @@
 import React from "react";
-import { getImageUrl } from "../../utils";
 import styles from "./About.module.css";
 
 const About = () => {
@@ -12,7 +11,9 @@ const About = () => {
             <div className={styles.aboutItemDescription}>
               <p>
                 &nbsp; &nbsp; Hi, I'm Stefan, a 29-years-old Front-End software developer with a passion for creating
-                user-friendly web experiences.I specialize in <span className={styles.tech}>HTML</span>,{" "}
+                user-friendly web experiences.
+                <br />
+                &nbsp; &nbsp; I specialize in <span className={styles.tech}>HTML</span>,{" "}
                 <span className={styles.tech}>CSS</span>, <span className={styles.tech}>Javascript</span>, and have some
                 experience with <span className={styles.tech}>React</span>. I also like to use frameworks like Tailwind,
                 Bootstrap to make the design process more efficient and consistent. <br />
@@ -26,7 +27,7 @@ const About = () => {
 
           <li className={styles.aboutItem}>
             <div>
-              <h3 className={styles.certificationsTitle}>Certifications</h3>
+              <h3 className={styles.certifTitle}>Certifications</h3>
 
               <div className={styles.certificationscontainer}>
                 <div className={styles.certificationcard}>
