@@ -68,6 +68,7 @@
   gap: 50px;
   list-style: none;
   user-select: none;
+  scroll-behavior: smooth;
 }
 
 .menuItems li a {

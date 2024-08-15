@@ -10,10 +10,11 @@ const About = () => {
           <li className={styles.aboutItem}>
             <div className={styles.aboutItemDescription}>
               <h4 className={styles.paragraphDesc}>
-                &nbsp; &nbsp; Hi, I'm Stefan, a 29-years-old Front-End software developer with a passion for creating
+              &nbsp;&nbsp;Hi, I'm Stefan, a 29-years-old Front-End software developer with a passion for creating
                 user-friendly web experiences.
                 <br />
-                &nbsp; &nbsp; I specialize in <span className={styles.tech}>HTML</span>,{" "}
+                <br/>
+              &nbsp;&nbsp;I specialize in <span className={styles.tech}>HTML</span>,{" "}
                 <span className={styles.tech}>CSS</span>, <span className={styles.tech}>Javascript</span>, and have some
                 experience with <span className={styles.tech}>React</span>. I also like to use frameworks like Tailwind,
                 Bootstrap to make the design process more efficient and consistent. <br />

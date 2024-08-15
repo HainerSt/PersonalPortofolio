@@ -197,8 +197,12 @@
 }
 
 @media (max-width: 600px) {
+  .aboutItem h4 {
+    font-size: 18px;
+    justify-content: center;
+  }
   .certificationscontainer {
-    width: 95vw;
+    width: 90vw;
   }
   .certificationcard p {
     font-size: 18px;
@@ -217,13 +221,18 @@
   .freecodelink {
     font-size: 14px;
   }
+
+  .freecodetext {
+    padding: 0;
+    margin: left;
+  }
 }
 
 @media (max-width: 400px) {
   .aboutItem p {
     width: 90vw;
     font-size: 20px;
-    padding: 0 10px;
+    padding: 0 20px;
     text-align: justify;
   }
 
@@ -245,8 +254,8 @@
 @media (max-width: 320px) {
   .aboutItem p {
     width: 50vw;
-    font-size: 16px;
-    padding: 0 10px;
+    font-size: 14px;
+    padding: 0 20px;
     text-align: center;
   }
   .paragraph-desc {
