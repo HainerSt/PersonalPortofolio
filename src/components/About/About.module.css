@@ -24,11 +24,9 @@
 }
 
 .certif-title {
-  text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  text-align: start;
+  margin-left: 0;
+  margin-right: 0;
+
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 20px;
@@ -64,6 +62,8 @@
 
 .aboutItem p {
   font-size: 24px;
+  text-align: start;
+  width: 60%;
 }
 
 .tech {
@@ -73,65 +73,68 @@
 
 .certificationscontainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: auto;
-  justify-content: center;
+  width: 100%;
+  align-items: center;
 }
 
 .certificationcard {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   border-radius: 15px;
-  margin: 20px;
-  padding: 25px 40px;
+  margin: 15px;
+  padding: 20px 40px;
   border: 1px solid var(--color-bg);
   box-shadow: 0 16px 14px 0 rgba(4, 21, 45, 0.4);
-  width: 60%;
+  width: 100%;
 }
 
 .certificationcard p {
-  font-size: 20px;
-  margin-top: 18px;
-  text-align: center;
+  width: 40%;
+  font-size: 18px;
+  align-items: start;
+  margin-right: 30px;
+  margin-left: 0;
 }
+
 .paragraph-desc {
   font-size: 24px;
   font-weight: 400;
-}
-
-.certification-title {
-  font-size: 20px;
 }
 
 .freecodelink {
   color: #fff;
   background-color: var(--color-primary-btn);
   text-decoration: none;
-  width: 80%;
+  width: 30%;
   text-align: center;
   align-items: center;
   margin: 10px auto;
-  margin-top: 20px;
-  padding: 20px 3px;
+  padding: 14px 3px;
   border-radius: 15px;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.6px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  transition: 0.4s ease-in-out;
+  transition: 0.3s ease;
 }
 
 .freecodelink:hover {
-  box-shadow: 0 16px 14px 0 #04152d20;
+  box-shadow: 0 16px 14px 0 #07214620;
   background-color: var(--color-primary-hover);
 }
 
 .freecodetext {
-  font-size: 90%;
   color: var(--color-bg);
   text-align: center;
   font-weight: 100;
+  margin-right: 20px;
+  padding: 20px auto;
 }
 
 .aboutTypingBlink {

@@ -1,12 +1,17 @@
 [
-    {
-        "certification": "Freecodecamp certificate",
-        "title": "Responsive Web Design",
-        "link": "https://freecodecamp.org/certification/HainerStefan/responsive-web-design"
-    },
-    {
-        "certification": "Freecodecamp certificate",
-        "title": "JavaScript Algorithms and Data Structures",
-        "link": "https://freecodecamp.org/certification/HainerStefan/javascript-algorithms-and-data-structures-v8"
-    }
+  {
+    "certification": "freeCodeCamp",
+    "title": "Responsive Web Design",
+    "link": "https://freecodecamp.org/certification/HainerStefan/responsive-web-design"
+  },
+  {
+    "certification": "freeCodeCamp",
+    "title": "JavaScript Algorithms & Data Structures",
+    "link": "https://freecodecamp.org/certification/HainerStefan/javascript-algorithms-and-data-structures-v8"
+  },
+  {
+    "certification": "Meta Coursera",
+    "title": "React Basics",
+    "link": "https://coursera.org/share/8e0fd3c69d46c878e12b05095c589c56"
+  }
 ]
