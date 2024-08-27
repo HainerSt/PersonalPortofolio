@@ -22,9 +22,9 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>
           H<span className={`${styles.span} ${styles.blinking2}`}>i</span>
-          <span className={`${styles.span} ${styles.blinking}`}>!</span> I&apos;m Stefan
+          <span className={`${styles.span} ${styles.blinking}`}>!</span> I&apos;m Stefan.
         </h1>
-        <p className={styles.description}>I&apos;m a front end developer based in Timișoara, RO. </p>
+        <p className={styles.description}>Front End Developer committed to continuous improvement and learning modern frameworks and tools.  </p>
         <a
           className={styles.contactBtn}
           href="https://mail.google.com/mail/?view=cm&fs=1&to=hainer.stefan@gmail.com"
