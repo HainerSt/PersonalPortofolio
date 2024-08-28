@@ -37,7 +37,10 @@
 
 .link {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -46,6 +49,7 @@
 }
 
 .link a {
+  display: flex;
   text-decoration: none;
   font-size: 30px;
   font-weight: 400;
@@ -53,8 +57,14 @@
   color: var(--color-light);
   transition: 0.4s ease-in-out;
 }
+
+.link a p:hover,
+.link a img:hover {
+  color: black;
+}
+
 .link a:hover {
-  color: var(--color-dark);
+  color: black;
 }
 
 @media (max-width: 991px) {

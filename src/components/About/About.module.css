@@ -71,37 +71,6 @@
   border-bottom: 1px white dotted;
 }
 
-.certificationscontainer {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 100%;
-  align-items: center;
-}
-
-.certificationcard {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 15px;
-  margin: 15px ;
-  padding: 20px 40px;
-  border: 1px solid var(--color-bg);
-  box-shadow: 0 16px 14px 0 rgba(4, 21, 45, 0.4);
-  width: 100%;
-}
-
-.certificationcard p {
-  width: 40%;
-  font-size: 18px;
-  align-items: start;
-  margin-right: 30px;
-  margin-left: 0;
-}
-
 .paragraph-desc {
   font-size: 24px;
   font-weight: 400;
@@ -127,14 +96,6 @@
 .freecodelink:hover {
   box-shadow: 0 16px 14px 0 #07214620;
   background-color: var(--color-primary-hover);
-}
-
-.freecodetext {
-  color: var(--color-bg);
-  text-align: center;
-  font-weight: 100;
-  margin-right: 20px;
-  padding: 20px auto;
 }
 
 .aboutTypingBlink {
@@ -175,15 +136,6 @@
     z-index: 1;
   }
 
-  .certificationscontainer {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 90vw;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
   .content {
     flex-direction: column;
   }
@@ -204,14 +156,6 @@
     font-size: 18px;
     justify-content: center;
   }
-  .certificationscontainer {
-    width: 90vw;
-  }
-  .certificationcard p {
-    font-size: 18px;
-    margin-top: 18px;
-    text-align: center;
-  }
 
   hr {
     width: 90vw;
@@ -224,11 +168,6 @@
   .freecodelink {
     font-size: 14px;
   }
-
-  .freecodetext {
-    padding: 0;
-    margin: left;
-  }
 }
 
 @media (max-width: 400px) {
@@ -237,20 +176,6 @@
     font-size: 20px;
     padding: 0 20px;
     text-align: justify;
-  }
-
-  .certificationscontainer {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-  .certificationcard {
-    width: 80vw;
-  }
-  .certificationcard p {
-    width: 70vw;
   }
 }
 

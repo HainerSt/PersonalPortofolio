@@ -22,7 +22,7 @@
 
 .title,
 .span {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
@@ -45,8 +45,8 @@
   padding: 10px;
   color: #000;
   text-align: center;
-
   user-select: none;
+  width: 80vw;
 }
 
 .contact-btn {
@@ -122,6 +122,22 @@
 
 .blinking {
   animation: blink 2s step-start infinite;
+}
+
+.scroll-arrow {
+  animation: move 2s infinite;
+}
+
+@keyframes move {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
 }
 
 @keyframes blink {

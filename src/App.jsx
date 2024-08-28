@@ -1,5 +1,7 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import styles from "./App.module.css";
 import About from "./components/About/About";
+import Certifications from "./components/Certifications/Certifications";
 import Contact from "./components/Contact/Contact";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
@@ -13,6 +15,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Certifications />
       <Projects />
       <Contact />
     </div>

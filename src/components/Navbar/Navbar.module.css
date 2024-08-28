@@ -76,6 +76,7 @@
   color: var(--color-text);
   text-decoration: none;
   position: relative;
+  cursor: pointer;
 }
 .menuItems a:hover {
   color: var(--color-dark);

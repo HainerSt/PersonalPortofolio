@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
-import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,24 +21,16 @@ const Navbar = () => {
         />
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
           <li>
-            <Link to="about" smooth={true} duration={500} offset={-80}>
-              About
-            </Link>
+            <a href="#about">About</a>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500} offset={-80}>
-              Skills
-            </Link>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500} offset={-90}>
-              Projects
-            </Link>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

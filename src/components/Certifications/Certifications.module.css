@@ -1,0 +1,66 @@
+@import "../../vars.css";
+
+.certifications-container {
+  background: var(--secondary-background);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-text);
+  margin: 0 auto;
+  padding: 40px 24px;
+  margin-top: 120px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.certification-card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+.certification-card h2 {
+  text-align: start;
+  width: 40%;
+}
+
+.certification-card h3 {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+
+.title {
+  color: var(--color-dark);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.certification-title {
+  font-weight: normal;
+  margin: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 15px;
+  background-color: var(--color-primary-btn);
+  color: #ffffff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  padding: 7px 22px;
+  transition: 0.4s ease-in-out;
+}
+
+.link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 14px 0 #04152d20;
+}
