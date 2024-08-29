@@ -24,7 +24,6 @@ const About = () => {
             </h4>
           </div>
         </div>
-        <hr />
       </div>
     </section>
   );

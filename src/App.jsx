@@ -14,8 +14,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Skills />
-      <Certifications />
+      <div className={styles.skillsAndCertifications}>
+        <Certifications />
+        <Skills />
+      </div>
       <Projects />
       <Contact />
     </div>

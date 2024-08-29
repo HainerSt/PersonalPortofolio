@@ -5,16 +5,17 @@ const Certifications = () => {
   return (
     <section id="certifications" className={styles.certificationsContainer}>
       <h2 className={styles.title}>Certifications</h2>
-      <div>
+      <div className={styles.certificationsBox}>
         {certifications.map((certification, id) => {
           return (
             <div className={styles.certificationCard} key={id}>
               <h2 className={styles.certificationTitle}>{certification.title}</h2>
-              <h3>{certification.organisation}</h3>
+              <h3 className={styles.certificationOrganisation}>{certification.organisation}</h3>
 
               <a className={styles.link} href={certification.link} target="_blank">
                 Open Certificate
               </a>
+              <span className={styles.hline} />
             </div>
           );
         })}
