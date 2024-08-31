@@ -1,7 +1,6 @@
 @import "../../vars.css";
 
 .certifications-container {
-  /* border: 1px solid var(--secondary-background); */
   box-sizing: border-box;
   background: linear-gradient(45deg, #118ab24d 0%, #19688362 50%, #118ab24d 100%);
   border-radius: 15px;
@@ -83,5 +82,17 @@
 @media (max-width: 768px) {
   .hline {
     width: 70vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .certification-title {
+    font-weight: normal;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .certification-organisation {
+    font-size: 14px;
   }
 }
