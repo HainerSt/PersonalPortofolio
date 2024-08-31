@@ -5,7 +5,9 @@
 }
 .container {
   position: relative;
-  background: var(--secondary-background);
+
+  background: linear-gradient(45deg, #118ab24d 0%, #19688362 50%, #118ab24d 100%);
+
   border-radius: 15px;
   padding: 40px 24px;
   margin-top: 120px;

@@ -2,7 +2,8 @@
 
 .certifications-container {
   /* border: 1px solid var(--secondary-background); */
-  background-color: var(--secondary-background);
+  box-sizing: border-box;
+  background: linear-gradient(45deg, #118ab24d 0%, #19688362 50%, #118ab24d 100%);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -77,4 +78,10 @@
 .link:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 8px 0 #04152d20;
+}
+
+@media (max-width: 768px) {
+  .hline {
+    width: 70vw;
+  }
 }

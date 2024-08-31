@@ -20,7 +20,7 @@
 }
 
 .text p {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   letter-spacing: 2px;
   color: var(--color-light);
@@ -46,6 +46,10 @@
 
 .link img {
   width: 40px;
+}
+
+.link p {
+  margin-left: 10px;
 }
 
 .link a {

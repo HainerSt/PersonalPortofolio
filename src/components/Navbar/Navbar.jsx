@@ -22,7 +22,7 @@ const Navbar = () => {
         />
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
           <li>
-            <Link to="about" smooth={true} duration={500} offset={-80}>
+            <Link to="about" smooth={true} duration={500} offset={-450}>
               About
             </Link>
           </li>
